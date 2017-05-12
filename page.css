@@ -1,0 +1,126 @@
+@CHARSET "ISO-8859-1";
+
+#divCarousalContainer
+{
+	position: relative;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	margin: 30px 100px 100px 100px;
+	height: 350px;
+	width: 1050px;
+	top: calc(50% - 175px);
+	left: calc( 50% - 625px );
+}
+
+#divInput
+{
+	position: relative;
+	margin: 100px 100px 0px 100px;
+	width: 1050px;
+	top: 5%;
+	left: calc( 50% - 625px );
+	text-align: center;
+	font-size: 22px;
+	font-family: sans-serif;
+	line-height: 150%;
+}
+
+#divInput legend{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#divInput input
+{
+	border: 1px solid black;
+}
+
+#divLiList {
+	width: 800px;
+	height: 250px;
+	float: left;
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding: 0px;
+	background-color: #EAEAEA;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#divSlider {
+	height: 250px;
+	width: 800px;
+	top: calc(50% - 125px);
+	left: calc(50% - 400px);
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-color: black;
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#ulElements li {
+	box-sizing: border-box;
+	float: left;
+	list-style: none;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	text-align: center;
+	font-size: 40px;
+	font-family: fantasy;
+	overflow: hidden;
+	background-color: white;
+}
+
+
+#divLeftBtn{
+	position: absolute;
+	top : 10px;
+	left: 5px;
+	height: 250px;
+	width: 80px;
+	top : calc(50% - 125px);
+	left: 25px;
+}
+
+#divRightBtn{
+	position: absolute;
+	height: 250px;
+	width: 80px;
+	top : calc(50% - 125px);
+	right: 25px;
+}
+
+#divLeftBtn img{
+	height: inherit;
+	width: inherit;
+}
+
+#divRightBtn img{
+	height: inherit;
+	width: inherit;
+}
+
+#ulElements{
+	padding: 0px;
+}
+
+#createBtn{
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	margin-top: 20px;
+}
+
+#inTotalElements , #inSingleSlideElements{
+	text-align: center;
+	font-size: 18px;
+	font-family: sans-serif;
+}

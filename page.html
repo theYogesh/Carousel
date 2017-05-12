@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User</title>
+<link rel="stylesheet" type="text/css" href="page.css" />
+</head>
+<body>
+	<div id="divInput">
+		<fieldset>
+			<legend>Carousal Creater</legend>
+			<form>
+				<div>
+					<label for="inTotalElements">Enter total number of elements :</label> <input id="inTotalElements" type="number"
+						name="totalElement" placeholder="10" />
+				</div>
+				<div>
+					<label for="inSingleSlideElements">Number of elements on single slide :</label> <input id="inSingleSlideElements"
+						type="number" name="elementsOnSlide" placeholder="3" />
+				</div>
+				<div>
+					<input id="createBtn" type="button" value="Create Carousal" />
+				</div>
+			</form>
+		</fieldset>
+	</div>
+	<div id="divCarousalContainer">
+		<div id="divLeftBtn">
+			<img src="images/left.png" alt="Previous">
+		</div>
+		<div id="divSlider">
+			<div id="divLiList">
+				<ul id="ulElements">
+				</ul>
+			</div>
+		</div>		
+		<div id="divRightBtn">
+			<img src="images/right.png" alt="Next">
+		</div>
+	</div>
+	<script src="jquery.js" ></script>
+	<script src="page.js"></script>
+</body>
+</html>
